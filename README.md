@@ -17,12 +17,13 @@ Device Menu:
 
 ## Pinout
  
-DS1307(RTC):
+- DS1307(RTC):
 
 SDA - pin 20  (SDA), 
 SCK - pin 21  (SCK)
-  
-Graphic LCD 128*64:
+<br/>
+
+- Graphic LCD 128*64:
 
 Data - A0 to A7, 
 
@@ -31,20 +32,23 @@ CS1  - pin 12,
 CS2  - pin 11, 
 RS   - pin 9, 
 RW   - pin 10
+<br/>
  
-Kepad 4*3 : 
+- Kepad 4*3 : 
 
 CD4021   PISO for reading,  
 74HC595  SIPO for scanning
+<br/>
  
 
 ## Features
 
 Three rooms with three devices each,
 select option using keypad :  
+<br/>
 
-'*' to go back to the previous page
+'*' to go back to the previous page,
 '0' and '#' to go back to the main menu
 
 ## To do
-Make it run more efficient. Add animations to UI.
+Add ability to modify devices (read & write), Add animations to UI.
